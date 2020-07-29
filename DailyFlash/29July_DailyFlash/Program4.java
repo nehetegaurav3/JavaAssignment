@@ -4,7 +4,7 @@ class Divisibility {
 
 	static boolean isDivisible(int dividend,int divisor) {
 	
-		if ((dividend & ((1 << divisor) - 1)) == 0)
+		if ((dividend & 1) == 0)
 			return true;
 		else
 			return false;
