@@ -4,7 +4,7 @@ class EvenOdd {
 
 	static boolean isEven(int num,int x) {
 	
-		if ((num & 1) == 0)
+		if ((num & ((1 << x) - 1)) == 0)
 			return true;
 		else
 			return false;
