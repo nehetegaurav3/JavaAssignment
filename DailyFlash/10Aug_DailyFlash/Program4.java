@@ -3,8 +3,8 @@
 class Program4 {
 
 	public static void main(String[] args) {
-	
-		int n = 10;
+			
+		int n = 10;				//Input
 		for(int num = 1; num <= n; num++) {
 	
 			
