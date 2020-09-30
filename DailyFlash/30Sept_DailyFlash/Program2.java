@@ -10,18 +10,18 @@ class Program2 {
 
 		for(int i = 0; i < 10; i++) {
 		
-			cnt++;
 			if(my_array[i] == 25)
 				System.out.println(my_array[i]+" is at "+cnt+" position");
+			cnt++;
 		}
 		
 		cnt = 0;
 
 		for(int i = 0; i < 10; i++) {
 		
-			cnt++;
 			if(my_array[i] == 77)
 				System.out.println(my_array[i]+" is at "+cnt+" position");
+			cnt++;
 		}
 	}
 }
